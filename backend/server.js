@@ -11,7 +11,8 @@ const app = express();
 // ---- CORS (allow your Netlify + localhost) ----
 const allowedOrigins = [
   "http://localhost:3000",
-  "https://mernn-budget-tracker.netlify.app"
+  "https://mernn-budget-tracker.netlify.app",
+  "https://mernn-budget-trackerfinal-1.onrender.com"
 ];
 
 app.use(
