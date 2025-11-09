@@ -4,3 +4,11 @@ node_modules/
 frontend/build/
 backend/.env
 .DS_Store
+node_modules/
+**/node_modules/
+**/.cache/
+**/.parcel-cache/
+**/dist/
+**/build/
+.env
+**/.env
